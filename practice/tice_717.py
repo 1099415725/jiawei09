@@ -28,9 +28,15 @@ class Bank:
     # 转入金额
     @classmethod
     def into_money(cls, money):
+
+        try:
+            amount=int(money)
+            0<amount
+        except:
+            print("转入金额有误！")
         date = nt
         type = "转入"
-        amount = money
+
         blance = (shop_list[1])[-1] + amount
         shop_data = [date, type, amount, currency, blance]
         shop_list.insert(1, shop_data)

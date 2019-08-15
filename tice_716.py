@@ -32,8 +32,8 @@
 
 # 任务3：格式化输出商品的编号和单价
 
-num=("%s\t%s\t%s\t%s"%("商品号","商品名称","单位","单价"))
-print(num)
+# num=("%s\t%s\t%s\t%s"%("商品号","商品名称","单位","单价"))
+# print(num)
 
 
 
@@ -119,15 +119,25 @@ print(num)
 # money=chg_money()
 
 # 任务3星座判断函数
-def start():
-    bir={"魔羯座":(101,119),"水瓶座":(120,218),"双鱼座":(219,320),"白羊座":(321,419),"金牛座":(420,520),"双子座":(521,621),"巨蟹座":(622,722),"狮子座":(723,822),"处女座":(823,922),"天秤座":(923,1023),"天蝎座":(1024,1122),"射手座":(1123,1220),"魔羯座":(1221,1231)}
-    birthday=int(input("请输入你的生日(格式：xxxx):\n"))
 
-    for date in bir.items():
-        num=date[1]
-        if num[0]<=birthday<=num[1]:
-            print("你的星座是%s"%date[0])
-        else:
-            print("输入有误！")
+class Start:
+    def start(self):
+        bir={"魔羯":(101,119),"水瓶座":(120,218),"双鱼座":(219,320),"白羊座":(321,419),"金牛座":(420,520),"双子座":(521,621),"巨蟹座":(622,722),"狮子座":(723,822),"处女座":(823,922),"天秤座":(923,1023),"天蝎座":(1024,1122),"射手座":(1123,1220),"魔羯座":(1221,1231)}
+        birthday=int(input("请输入你的生日(格式：xxxx):\n"))
 
-coco=start()
+        for date in bir.items():
+            num=date[1]
+            if num[0]<=birthday<=num[1]:
+                print("你的星座是%s"%date[0])
+            else:
+                print("输入有误！")
+#
+# if __name__=="__main__":
+#     coco=Start.start()
+
+class Yunsuan:
+    def jia(self,num1,num2):
+        return (num1+num2)
+
+    def plus(self,num1,num2):
+        return (num1*num2)

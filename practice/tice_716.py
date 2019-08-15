@@ -5,7 +5,9 @@
 # 文件名称： tice_716.py
 # 开发工具： PyCharm
 
-import  re
+import re
+
+
 # 任务5：输出身份证上的生日信息
 # data=input("请输入你的身份证号码：\n")
 # num1=data[6:10]
@@ -44,14 +46,16 @@ class Computer():
     电源：海盗船
     机箱：牧马人
     '''
+
     def play_game(self):
         print("welcome to the league of dragon!")
 
 
-xiaoming=Computer()
+xiaoming = Computer()
 print(xiaoming)
 
 xiaoming.play_game()
+
 
 class Person():
     '''
@@ -61,6 +65,7 @@ class Person():
     tel:13419591290
 
     '''
+
     def eat(self):
         print("i can eat!")
 
@@ -75,10 +80,11 @@ class Person():
         print("i can cook!")
 
 
-liudehua=Person()
+liudehua = Person()
 liudehua.cook()
 liudehua.play()
 liudehua.study()
+
 
 class Ref:
     '''
@@ -86,13 +92,11 @@ class Ref:
     width:0,7m
     colour:red
     '''
-    colour='green'
+    colour = 'green'
 
-
-
-    def __init__(self,colour):
+    def __init__(self, colour):
         print("aa")
-        print("你是%s的垃圾"%colour)
+        print("你是%s的垃圾" % colour)
 
     def open_door(self):
         '''
@@ -100,35 +104,40 @@ class Ref:
         :return:
         '''
         print("芝麻开门")
-    def init_things(self,something):
-        print("听说哟人要将%s装进冰箱"%something)
+
+    def init_things(self, something):
+        print("听说哟人要将%s装进冰箱" % something)
 
     def close_door(self):
         print("芝麻关门")
 
+
 class Elephant:
     '''
     '''
+
     # 静态方法
     @staticmethod
     def play():
         print("来呀一起玩啊！")
+
     # 类方法
     @classmethod
     def walk(cls):
         print("我可以远征,带我去打仗！")
+
     # 实例方法
     def eat(self):
         print("我是一个肉食动物")
         self.play()
 
 
-ref=Ref("red")
+ref = Ref("red")
 
-ele=Elephant()
+ele = Elephant()
 ele.eat()
 
-ele2=Elephant()
+ele2 = Elephant()
 ele2.eat()
 
 # ref.init_things(ele)
