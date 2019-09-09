@@ -14,13 +14,13 @@
 #     print("")
 
 # 任务1，输出字母或数字的ASCII值
-while True:
-    num = input("你的输入值：\n")
-    if ord("A") <= ord(num) <= ord("Z") or ord("a") <= ord(num) <= ord("z") or ord("0") <= ord(num) <= ord("9"):
-        print(num, "的ASCII值是：", ord(num))
-    else:
-        print("退出成功！")
-        break
+# while True:
+#     num = input("你的输入值：\n")
+#     if ord("A") <= ord(num) <= ord("Z") or ord("a") <= ord(num) <= ord("z") or ord("0") <= ord(num) <= ord("9"):
+#         print(num, "的ASCII值是：", ord(num))
+#     else:
+#         print("退出成功！")
+#         break
 
 # 任务2：编程输出星号（*）阵列
 star = 0

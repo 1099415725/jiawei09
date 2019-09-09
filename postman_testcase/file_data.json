@@ -1,0 +1,45 @@
+{
+  "test_case_0001": {
+            "input_data":{
+                    "req_params": {"phone": "1341959", "key": "802831374e480e92f88f1bd989a805b0"
+                                  },
+                    "req_headers": {"cache-control": "no-cache", "Postman-Token": "9597ca13-e388-436e-b335-60e82cddbc22"
+                                  },
+                    "exp_result": {"province": "湖北", "city": "武汉", "company": "移动"
+                                  }
+                          }
+                    },
+
+  "test_case_0002": {
+            "input_data":{
+                    "req_params": {"phone": "15337333037", "key": "802831374e480e92f88f1bd989a805b0"
+                                  },
+                    "req_headers": {"cache-control": "no-cache", "Postman-Token": "9597ca13-e388-436e-b335-60e82cddbc22"
+                                  },
+                    "exp_result": {"province": "湖北", "city": "随州", "company": "电信"
+                                  }
+                          }
+                    },
+
+  "test_case_0003": {
+            "input_data":{
+                    "req_params": {"phone": "1341959", "key": "802831374e480e92f88f1bd989a805b0"
+                                  },
+                    "req_headers": {"cache-control": "no-cache", "Postman-Token": "9597ca13-e388-436e-b335-60e82cddbc22"
+                                  },
+                    "exp_result": {"province": "湖北", "city": "武汉", "company": "移动"
+                                  }
+                          }
+                    },
+
+  "test_case_0004": {
+            "input_data":{
+                    "req_params": {"phone": "1341959", "key": "802831374e480e92f88f1bd989a805b0"
+                                  },
+                    "req_headers": {"cache-control": "no-cache", "Postman-Token": "9597ca13-e388-436e-b335-60e82cddbc22"
+                                  },
+                    "exp_result": {"province": "湖北", "city": "武汉", "company": "移动"
+                                  }
+                          }
+                    }
+}

@@ -1,0 +1,22 @@
+{
+  "test_case01": {"phone": "13419591290"},
+  "test_case02": {"phone": "1341959"},
+  "test_case03": {"phone": "13419591"},
+  "test_case04": {"phone": "134195"},
+  "test_case05": {"phone": "1341959129"},
+  "test_case06": {"phone": "134195912901"},
+  "test_case07": {"phone": "1341959129 0"},
+  "test_case08": {"phone": "1341969129#0"},
+  "test_cese09": {"phone": "1341959129a0"},
+  "test_case10": {"phone": "134195 9"},
+  "test_case11": {"phone": "134195a9"},
+  "test_case12": {"phone": "134195%9"},
+  "test_case13": {"phone": "1590230"},
+  "test_case14": {"phone": "15906902212"},
+  "test_case15": {"phone": "15904812222"},
+  "test_case16": {"phone": "15904838888"},
+  "test_case17": {"phone": "15905058888"},
+  "test_case18": {"phone": "15900001111"},
+  "test_case19": {"phone": "15905103333"},
+  "test_case20": {"phone": "15903109999"}
+}
